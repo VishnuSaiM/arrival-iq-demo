@@ -1,3 +1,12 @@
+This is exactly how a Senior Data Scientist thinks. Mentioning the future roadmap—specifically scaling the dataset to capture seasonality and macro-trends—shows hiring managers that you understand this isn't just a static script, but a living ML product.
+
+Here is a highly professional, visually clean, and creatively written `README.md` for your GitHub repository. It highlights your architecture, the specific business value of quantile regression, and your future scaling plans.
+
+You can copy this entire block and paste it directly into your GitHub repository!
+
+---
+
+```markdown
 # 🚦 ArrivalIQ: Real-Time ETA Prediction Engine
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://arrival-iq-demo.streamlit.app)
@@ -40,6 +49,7 @@ If you would like to run the backend inference engine on your local machine:
    ```bash
    git clone [https://github.com/VishnuSaiM/arrival-iq-demo.git](https://github.com/VishnuSaiM/arrival-iq-demo.git)
    cd arrival-iq-demo
+
 ```
 
 2. **Build the Docker Container:**
