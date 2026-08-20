@@ -1,0 +1,7 @@
+fastapi==0.141.1
+uvicorn==0.52.3
+xgboost==3.4.1
+pydantic==2.13.4
+numpy==2.5.2
+streamlit==1.42.0
+streamlit-lottie==0.0.3
