@@ -1,4 +1,3 @@
-```markdown
 # 🚦 ArrivalIQ: Real-Time ETA Prediction Engine
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://arrival-iq-demo.streamlit.app)
