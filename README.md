@@ -40,3 +40,43 @@ If you would like to run the backend inference engine on your local machine:
    ```bash
    git clone [https://github.com/VishnuSaiM/arrival-iq-demo.git](https://github.com/VishnuSaiM/arrival-iq-demo.git)
    cd arrival-iq-demo
+```
+
+2. **Build the Docker Container:**
+```bash
+docker build -t arrival-iq-backend .
+
+```
+
+
+3. **Run the Container:**
+```bash
+docker run -p 8080:8080 arrival-iq-backend
+
+```
+
+
+4. **Test the API:**
+```bash
+curl -X POST "http://localhost:8080/predict_eta" \
+-H "Content-Type: application/json" \
+-d '{"trip_miles": 15.0, "pickup_hour": 17, "pickup_day_of_week": 4, "prior_15m_speed": 22.5}'
+
+```
+
+
+
+```
+
+***
+
+### How to add this to GitHub:
+1. Go to your `arrival-iq-demo` repository on GitHub.
+2. Click the **"Add file"** button, then select **"Create new file"**.
+3. Name the file exactly `README.md`.
+4. Paste the text above into the editor. *(Make sure you replace the `[Live Demo]` URL link at the very top with your actual Streamlit link!)*
+5. Click **"Commit changes"** at the top right.
+
+<FollowUp label="What about LinkedIn?" query="The README is perfect and added to my repo. How should I structure a LinkedIn post to announce this project to my network and recruiters?"/>
+
+```
