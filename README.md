@@ -1,11 +1,3 @@
-This is exactly how a Senior Data Scientist thinks. Mentioning the future roadmap—specifically scaling the dataset to capture seasonality and macro-trends—shows hiring managers that you understand this isn't just a static script, but a living ML product.
-
-Here is a highly professional, visually clean, and creatively written `README.md` for your GitHub repository. It highlights your architecture, the specific business value of quantile regression, and your future scaling plans.
-
-You can copy this entire block and paste it directly into your GitHub repository!
-
----
-
 ```markdown
 # 🚦 ArrivalIQ: Real-Time ETA Prediction Engine
 
@@ -71,22 +63,5 @@ docker run -p 8080:8080 arrival-iq-backend
 curl -X POST "http://localhost:8080/predict_eta" \
 -H "Content-Type: application/json" \
 -d '{"trip_miles": 15.0, "pickup_hour": 17, "pickup_day_of_week": 4, "prior_15m_speed": 22.5}'
-
-```
-
-
-
-```
-
-***
-
-### How to add this to GitHub:
-1. Go to your `arrival-iq-demo` repository on GitHub.
-2. Click the **"Add file"** button, then select **"Create new file"**.
-3. Name the file exactly `README.md`.
-4. Paste the text above into the editor. *(Make sure you replace the `[Live Demo]` URL link at the very top with your actual Streamlit link!)*
-5. Click **"Commit changes"** at the top right.
-
-<FollowUp label="What about LinkedIn?" query="The README is perfect and added to my repo. How should I structure a LinkedIn post to announce this project to my network and recruiters?"/>
 
 ```
