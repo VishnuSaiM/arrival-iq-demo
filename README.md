@@ -5,6 +5,14 @@
 [![GCP](https://img.shields.io/badge/Google_Cloud-Run-4285F4?style=for-the-badge&logo=googlecloud)](https://cloud.google.com/)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker)](https://www.docker.com/)
 
+## 🖥️ Live Demo Preview
+
+<p align="center">
+  <img width="800" height="519" alt="aarivaliq" src="https://github.com/user-attachments/assets/33211d63-0245-412a-87a6-814cd3acc86f" />
+</p>
+
+---
+
 **ArrivalIQ** is a decoupled, serverless machine learning application designed to predict travel times based on historical traffic states, trip distance, and temporal features. 
 
 Unlike traditional routing algorithms that provide a single deterministic point-prediction, ArrivalIQ utilizes **Quantile Regression (XGBoost)** to generate probabilistic bounds (Best Case, Median, and Worst Case scenarios). This provides operations teams with quantifiable risk boundaries for routing uncertainty.
@@ -41,7 +49,6 @@ If you would like to run the backend inference engine on your local machine:
    git clone [https://github.com/VishnuSaiM/arrival-iq-demo.git](https://github.com/VishnuSaiM/arrival-iq-demo.git)
    cd arrival-iq-demo
 
-```
 
 2. **Build the Docker Container:**
 ```bash
@@ -49,13 +56,11 @@ docker build -t arrival-iq-backend .
 
 ```
 
-
 3. **Run the Container:**
 ```bash
 docker run -p 8080:8080 arrival-iq-backend
 
 ```
-
 
 4. **Test the API:**
 ```bash
